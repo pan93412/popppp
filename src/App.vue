@@ -1,16 +1,16 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <Leaderboard />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
+import Leaderboard from './components/Leaderboard.vue'
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    Leaderboard
   }
 })
 </script>
